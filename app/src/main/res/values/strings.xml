@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">VideoMessengerProject</string>
+    <string name="app_name">Видео Стриминг</string>
+    <string name="login_button_text">Войти</string>
+    <string name="registration_button_text">Регистрация</string>
+    <string name="text_field_login_label">Введите логин</string>
+    <string name="text_field_password_label">Введите пароль</string>
+    <string name="text_registration_user">Еще не зарегистрировались?</string>
+    <string name="registration_screen_start">Регистрация</string>
 </resources>
