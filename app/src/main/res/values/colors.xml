@@ -10,5 +10,6 @@
     <color name="very_light_for_background">#DFFFDF</color>
     <color name="gold_for_text">#FFD3B000</color>
     <color name="dark_green_for_text">#FF167300</color>
+    <color name="green_for_background">#774CDE35</color>
 
 </resources>

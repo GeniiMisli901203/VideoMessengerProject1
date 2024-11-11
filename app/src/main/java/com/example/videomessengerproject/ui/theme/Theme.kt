@@ -8,7 +8,7 @@ import androidx.compose.ui.graphics.Color
 private val DarkGreen = Color(0xFF008800)
 private val White = Color(0xFFFFFFFF)
 private val Gold = Color(0xFFD3B000)
-private val VeryLightGreen = Color(0xDEFFDE) // Очень светло-зеленый цвет
+private val VeryLightGreen = Color(0xDEA8FFAC)
 
 @Composable
 fun VideoMessengerProjectTheme(

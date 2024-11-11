@@ -25,5 +25,7 @@ data class UsersAccounts(
     @ColumnInfo(name = "user_login")
     var userLogin: String = "",
     @ColumnInfo(name = "user_password")
-    var userPassword: String = ""
+    var userPassword: String = "",
+    @ColumnInfo(name = "user_avatar")
+    var userAvatar: ByteArray? = null
 )

@@ -55,12 +55,13 @@ dependencies {
     implementation(libs.koin.core)
     implementation(libs.koin.android)
 
-    val room_version = "2.6.1"
-    implementation("androidx.room:room-runtime:$room_version")
-    kapt("androidx.room:room-compiler:$room_version")
-    implementation("androidx.room:room-ktx:$room_version")
+    implementation(libs.androidx.room.runtime)
+    ksp(libs.androidx.room.compiler)
+    implementation(libs.androidx.room.ktx)
 
     implementation(libs.androidx.room.ktx)
+    implementation (libs.material3)
+    implementation (libs.coil.kt.coil.compose)
 
     implementation(libs.glide)
     implementation(libs.androidx.lifecycle.livedata.ktx)
@@ -70,6 +71,8 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.gson)
     implementation(libs.converter.gson)
+
+    implementation (libs.coil.kt.coil.compose)
 
     implementation(libs.androidx.room.runtime)
     annotationProcessor(libs.androidx.room.compiler)

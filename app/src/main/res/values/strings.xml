@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Видео Стриминг</string>
+    <string name="app_name">PfR Видео</string>
     <string name="login_button_text">Войти</string>
     <string name="registration_button_text">Регистрация</string>
     <string name="text_field_login_label">Введите логин</string>
